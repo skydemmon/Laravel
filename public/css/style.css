@@ -1,0 +1,484 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+
+#display{
+	color:white;
+}
+/* bodyall modifie tout les background img except body(asssistance) */
+body{
+background:  url(../img/background/fond.jpg);
+font-family: 'Roboto', sans-serif;
+background repeat: no-repeat;
+background-size:500%;
+}
+/* .bodya modifies background and text color in assistance page */
+
+.container{
+	/* width:1280px; */
+	padding-right: 0px;
+	padding-left: 0px;
+	margin: 0 auto;
+	border: 2px solid darkred;
+
+
+}
+/* .general{
+	width:1280px;
+	margin: 0 auto;
+	border: 2px solid darkred;
+
+} */
+
+.logo{
+	padding-left: 25px;
+	float:left;
+	max-width:100px;
+	margin-top: -7px
+}
+/* Navigation Menu css */
+
+.navbar .navbar-nav {
+margin:auto;
+
+}
+
+
+
+
+.dropdown-item{
+	color: white;
+}
+
+/* end of navigation menu */
+
+
+/* Header css */
+
+header{
+	height:360px;
+	/* background:  url(../docs/img/background/designs.png); */
+	object-fit: cover;
+}
+
+header hgroup{
+padding-left: 95px;
+padding-top: 55px;
+color:#f2efb9;
+}
+hgroup h1{
+
+
+
+
+}
+hgroup h2{
+}
+.video{
+color:white;
+float:center;
+
+}
+
+}
+/* end of header css */
+
+
+/* Acueil css + section */
+.acueil h3{
+  padding-top: 50px;
+text-align: center;
+font-family: 'Calistoga', sans-serif;
+word-spacing: 20px;
+
+
+}
+.content h4{
+color: red;
+text-align: center;
+
+
+}
+section{
+	/* background:  url(../docs/img/background/fond.jpg); */
+
+}
+section h3{
+	text-align: center;
+padding: 10px 0px 50px 0px;
+font-family: 'Ariel', sans-serif;
+font-size: 27px;
+color:red;
+}
+/*  end of Acueil css + section */
+
+/* Footer css */
+
+footer{
+	background no-repeat;
+	background: 100%
+	color:white;
+	padding:80px;
+	text-align: center;
+}
+footer ul{
+
+  margin:10px 10px 10px 10px;
+    list-style-type: none;
+}
+
+
+footer ul li{
+
+	text-align: center;
+	color:white;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 5px;
+}
+
+footer ul li a{
+text-decoration: none;
+color: white;
+font-size:20px;
+}
+
+footer ul li a:hover{
+text-decoration: none;
+color: red;
+font-size: 30px;
+}
+footer h6{
+color:white;
+	text-align: center;
+}
+/* End of footer css */
+
+
+/* Content p css */
+
+article p{
+  padding-left: 15px;
+	padding-right: 15px;
+  	line-height:18px;
+		text-align: justify;
+text-justify: distribute;
+text-align-last: left;
+  	font-size:18px;
+    font-family: 'Roboto', sans-serif;
+		color: white;
+
+  }
+	article p::first-letter{
+  	font-size: 200%;
+  	color: red;
+  	font-family: 'Pacifico', cursive;
+  	margin-right: 1px;
+  }
+/* content p end css */
+
+/* imagin right of biographie */
+article .right {
+  float:right;
+  margin: 12px 10px;
+  border: 2px solid darkred;
+
+  }
+
+article .legende{
+  text-align: center;
+  font-size: smaller;
+  text-align: center;
+	color:white;
+
+  }
+	/* end of figcaption css  */
+
+
+section ul{
+
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+
+/* CSS for portofolio */
+
+.portofolio{
+padding:10px;
+margin:0 auto;
+}
+.portofolio h3 {
+	padding:20px;
+
+	margin:0 auto;
+	font-family: 'Gloria Hallelujah', cursive;
+
+
+}
+.portofolio ul{
+
+text-align: center;
+}
+
+.portofolio ul li{
+text-align: center;
+border:3px solid white;
+margin: 4px;
+display:inline-block;
+list-style-type: none;
+}
+/* CSS for tutorial */
+
+.tutorial h3{
+	text-align: center;
+padding:20px;
+margin:0 auto;
+font-family: 'Gloria Hallelujah', cursive;
+
+}
+.tutorial ul{
+text-align: center;
+list-style-type: none;
+}
+.tutorial{
+font-family: 'Gloria Hallelujah', cursive;
+
+
+}
+
+.tutorial ul li{
+margin: 4px;
+list-style-type: none;
+text-align: center;
+
+}
+.tutorial a{
+text-decoration: none;
+color: white;
+font-size: 24px;
+}
+
+/* end of tutorial css */
+
+/* CSS for contact */
+.contact{
+
+    margin  : 20px auto;
+    text-align: center;
+}
+.contact ul li img{
+
+border: 2px solid red;
+}
+.contact h4{
+padding: 20px;
+color:white;
+
+}
+input{
+
+    width : 255px ;
+		margin:5px;
+}
+
+input, textarea {
+  text-align: center;
+    border          : 1px solid #bbb ;
+    border-radius   : 6px ;
+    font-size       : 14px ;
+    padding         : 3px 6px 3px 6px ;
+    box-shadow      : inset 4px 4px 9px #DDD;
+		margin:5px;
+}
+
+button{
+margin: 0 auto;
+}
+
+/* end of contact css */
+
+
+
+
+/* Login CSS */
+.login form {
+}
+
+.login input[type=text], input[type=password],  input[type=email], input[type=cemail]  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.lgin button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.color{
+  padding: 15px;
+	color: white;
+}
+.containter2{
+
+color:white;
+}
+
+
+span.psw {
+	color:white;
+	font-size: 20px;
+  float: right;
+  padding-top: 16px;
+}
+span.psw a {
+	color:white;
+	font-size: 20px;
+  float: right;
+padding-left: 10px;
+text-decoration: none;
+}
+
+
+  .cancelbtn {
+    width: 100%;
+  }
+
+
+/* CSS for comment box dans assistance page */
+
+.comment{
+    width   : 600px ;
+    margin  : 20px auto;
+    text-align: center;
+}
+.comment h4{
+	padding: 20px;
+color:white;
+
+}
+.comment input{
+
+    width : 255px ;
+		margin:5px;
+}
+
+.comment input, textarea {
+  text-align: center;
+    border          : 1px solid #bbb ;
+    border-radius   : 6px ;
+    font-size       : 14px ;
+    padding         : 3px 6px 3px 6px ;
+    box-shadow      : inset 4px 4px 9px #DDD;
+		margin:5px;
+}
+
+.comment button{
+margin: 0 auto;
+width:60px;
+}
+/* end of comment box , dans page assistance */
+
+
+
+/* CSS for magasin */
+.magasin{
+color:red;
+
+
+}
+.magasin ul li{
+	padding-top: 20px;
+ padding-bottom: 100px;
+
+}
+.magasin ul{
+list-style-type: none;
+
+}
+.magasin ul li a{
+text-decoration: none;
+color:red;
+padding-right: 100px;
+font-size: 18px;
+
+}
+
+.product a{
+	font-size: 18px;
+color:white;
+}
+.magasin img{
+margin-right: -130px
+
+}
+/* End of css pour magasin */
+
+
+
+/* start css pour label tutorial */
+.map h3{
+padding:20px;
+width:760px;
+margin:0 auto;
+font-family: 'Gloria Hallelujah', cursive;
+
+}
+.map ul{
+text-align: center;
+list-style-type: none;
+}
+.map{
+font-family: 'Gloria Hallelujah', cursive;
+
+
+}
+
+.map ul li{
+margin: 4px;
+list-style-type: none;
+padding: 100px;
+
+}
+.map {
+text-decoration: none;
+color: white;
+font-size: 24px;
+}
+.map ul li img{
+
+	border:10px solid darkred;
+}
