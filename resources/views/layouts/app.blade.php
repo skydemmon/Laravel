@@ -35,7 +35,7 @@
       <a class="nav-link" href="portfolio" >Portofolio</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="magasin.php">Magasin</a>
+      <a class="nav-link" href="magasin">Magasin</a>
     </li>
 
     <!-- Dropdown -->
@@ -45,7 +45,7 @@
       </a>
       <div class="dropdown-menu bg-dark">
         <a class="dropdown-item" href="askforhelp.php">Assistance</a>
-        <a class="dropdown-item" href="portofolio-video.php">Tutorial Video</a>
+        <a class="dropdown-item" href="portfolio-video">Tutorial Video</a>
       </div>
     </li>
 
@@ -54,7 +54,7 @@
         Contact
       </a>
       <div class="dropdown-menu bg-dark">
-        <a class="dropdown-item" href="map.php">Contact</a>
+        <a class="dropdown-item" href="map">Contact</a>
         <a class="dropdown-item" href="contact">Envoyer un email</a>
       </div>
     </li>
@@ -86,8 +86,6 @@
 </footer>
 
         </div>
-
-
 
         <script
       src="https://code.jquery.com/jquery-3.4.1.js"

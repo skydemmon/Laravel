@@ -35,3 +35,15 @@ Route::get('/login', function () {
 Route::get('/inscription', function () {
     return view('inscription');
 });
+
+Route::get('/map', function () {
+    return view('map');
+});
+
+Route::get('/portfolio-video', function () {
+    return view('portfolio-video');
+});
+
+Route::get('/magasin', function () {
+    return view('magasin');
+});
